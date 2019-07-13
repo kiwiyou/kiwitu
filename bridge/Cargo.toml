@@ -1,0 +1,12 @@
+[package]
+name = "bridge"
+version = "0.1.0"
+authors = ["kiwiyou"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+actix = { version = "0.8", optional = true }
+
+[features]
+server = ["actix"]

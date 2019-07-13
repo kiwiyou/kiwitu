@@ -1,0 +1,11 @@
+[package]
+authors = ["kiwiyou"]
+edition = "2018"
+name = "front"
+version = "0.1.0"
+
+[dependencies]
+failure = "0.1"
+yew = { git = "https://github.com/DenisKolodin/yew" }
+
+bridge = { path = "../bridge" }
